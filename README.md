@@ -21,14 +21,14 @@ Inputs and outputs should be valid JavaScript values!
 
 | Input | Output |
 | ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+|{personName:'Julie', pet: 'Bella', isDog:true}| {Bella is a dog!'}|
+| {personName:'Kaylee', pet: 'Lucy', isDog:false}| undefined |
+|{personName:'Declan', pet: 'Finn', isDog:true}| {'Finn is a dog!'} |
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>Evaluates an array of objects. Each object in the array contains a pet owners' name, pet name, and an expression to determine whether the pet is dog. The function returns a greeting if the pet is a dog and if the dog's name is attached to a pet owner. </td>
   </tr>
 </table>
 
