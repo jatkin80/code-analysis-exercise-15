@@ -21,7 +21,7 @@ Inputs and outputs should be valid JavaScript values!
 
 | Input | Output |
 | ----- | ------ |
-|{personName:'Julie', pet: 'Bella', isDog:true}| Bella is a dog!'|
+|{personName:'Julie', pet: 'Bella', isDog:true}| 'Bella is a dog!'|
 | {personName:'Kaylee', pet: 'Lucy', isDog:false}| undefined |
 |{personName:'Declan', pet: 'Finn', isDog:true}| 'Finn is a dog!' |
 
